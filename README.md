@@ -26,7 +26,24 @@ Download our constructed RSVGD dataset files. We build the first large-scale dat
     ```
 .
    
-We expect the directory structure to be the following:
-    ```
-    6666
-    ```
+We expect the directory and file structure to be the following:
+
+./                      # current (project) directory
+├── RSVGD/              # RSVGD dataset
+│   ├── Annotations/
+│   │   ├── 00001.xml/
+│   │   └── ..some xml files..
+│   ├── JPEGImages/
+│   │   ├── 00001.jpg/
+│   │   └── ..some jpg files..
+│   ├── train.txt
+│   ├── val.txt
+│   └── test.txt
+├── models/             # Files for implementation of RSVG model
+├── utils/              # Some scripts for data processing and helper functions 
+├── saved_models/       # Savepath of pth/ckpt and pre-trained model
+├── data_loader.py      # Files for construct dataset
+├── train.py            # code for training HSNet
+├── README.md           # intstruction for reproduction           
+└── 00/           # 
+
