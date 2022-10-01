@@ -21,9 +21,9 @@ We recommended the following dependencies.
 
 ## Download Data
 Download our constructed RSVGD dataset files. We build the first large-scale dataset for RSVG, termed RSVGD, which can be downloaded from our [Google Drive](https://drive.google.com/drive/folders/1hTqtYsC6B-m4ED2ewx5oKuYZV13EoJp_?usp=sharing). The download link is available below:
-    ```
-    https://drive.google.com/drive/folders/1hTqtYsC6B-m4ED2ewx5oKuYZV13EoJp_?usp=sharing
-    ```
+```
+https://drive.google.com/drive/folders/1hTqtYsC6B-m4ED2ewx5oKuYZV13EoJp_?usp=sharing
+```
 .
    
 We expect the directory and file structure to be the following:
@@ -47,3 +47,14 @@ We expect the directory and file structure to be the following:
     ├── val.txt         # ID of validation set
     └── test.txt        # ID of test set
 ```
+
+## Training and Evaluation
+```
+python main.py
+```
+
+Run ```main.py``` using ```--test False``` to train new models on RSVGD.
+Evaluate trained models on RSVGD using ```--test True```.
+
+
+
