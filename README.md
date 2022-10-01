@@ -24,7 +24,6 @@ Download our constructed RSVGD dataset files. We build the first large-scale dat
 ```
 https://drive.google.com/drive/folders/1hTqtYsC6B-m4ED2ewx5oKuYZV13EoJp_?usp=sharing
 ```
-.
    
 We expect the directory and file structure to be the following:
 ```
