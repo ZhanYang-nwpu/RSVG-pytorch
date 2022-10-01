@@ -20,14 +20,13 @@ We recommended the following dependencies.
 - torchvision
 
 ## Download Data
-Download our constructed RSVGD dataset files. We build the first large-scale dataset for RSVG, termed RSVGD, which can be downloaded from [here](https://drive.google.com/drive/folders/1hTqtYsC6B-m4ED2ewx5oKuYZV13EoJp_?usp=sharing). The download link is available below:
+Download our constructed RSVGD dataset files. We build the first large-scale dataset for RSVG, termed RSVGD, which can be downloaded from our [Google Drive](https://drive.google.com/drive/folders/1hTqtYsC6B-m4ED2ewx5oKuYZV13EoJp_?usp=sharing). The download link is available below:
     ```
     https://drive.google.com/drive/folders/1hTqtYsC6B-m4ED2ewx5oKuYZV13EoJp_?usp=sharing
     ```
 .
    
 We expect the directory structure to be the following:
-
     ```
-    git
+    6666
     ```
