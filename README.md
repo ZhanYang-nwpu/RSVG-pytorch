@@ -7,7 +7,7 @@ This is Multi-level Cross-modal Fusion Network, the PyTorch source code of the p
 
 ### Network Architecture
 <p align="middle">
-    <img src="fig/architecture.jpg">
+    <img src="fig/MGVLF.pdf">
 </p>
 
 ## Requirements and Installation
