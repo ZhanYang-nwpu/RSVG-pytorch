@@ -3,7 +3,7 @@
 This is the offical PyTorch code for paper **"RSVG: Exploring Data and Model for Visual Grounding on Remote Sensing Data"**, [Early Access](https://ieeexplore.ieee.org/document/10056343).
 
 ## Introduction
-This is Multi-level Cross-modal Fusion Network, the PyTorch source code of the paper "RSVG: Exploring Data and Model for Visual Grounding on Remote Sensing Data". It is built on top of the [TransVG](https://github.com/djiajunustc/TransVG) in PyTorch. Our method is a transformer-based method for visual grounding for remote sensing data (RSVG). It has achieved the SOTA performance in the RSVG task on our constructed RSVGD dataset.
+This is Multi-level Cross-modal Fusion Network, the PyTorch source code of the paper "RSVG: Exploring Data and Model for Visual Grounding on Remote Sensing Data". It is built on top of the [TransVG](https://github.com/djiajunustc/TransVG) in PyTorch. Our method is a transformer-based method for visual grounding for remote sensing data (RSVG). It has achieved the SOTA performance in the RSVG task on our constructed RSVG dataset.
 
 ### Network Architecture
 <p align="middle">
@@ -20,7 +20,7 @@ We recommended the following dependencies.
 - torchvision
 
 ## Download Data
-Download our constructed RSVGD dataset files. We build the first large-scale dataset for RSVG, termed RSVGD, which can be downloaded from our [Google Drive](https://drive.google.com/drive/folders/1hTqtYsC6B-m4ED2ewx5oKuYZV13EoJp_?usp=sharing). The download link is available below:
+Download our constructed RSVG dataset files. We build the first large-scale dataset for RSVG, termed DIOR-RSVG, which can be downloaded from our [Google Drive](https://drive.google.com/drive/folders/1hTqtYsC6B-m4ED2ewx5oKuYZV13EoJp_?usp=sharing). The download link is available below:
 ```
 https://drive.google.com/drive/folders/1hTqtYsC6B-m4ED2ewx5oKuYZV13EoJp_?usp=sharing
 ```
@@ -35,7 +35,7 @@ We expect the directory and file structure to be the following:
 ├── data_loader.py      # Load data
 ├── main.py             # Main code for training, validation, and test
 ├── README.md
-└── RSVGD/              # RSVGD dataset
+└── RSVGD/              # DIOR-RSVG dataset
     ├── Annotations/    # Query expressions and bounding boxes
     │   ├── 00001.xml/
     │   └── ..some xml files..
@@ -52,8 +52,8 @@ We expect the directory and file structure to be the following:
 python main.py
 ```
 
-Run ```main.py``` using ```--test False``` to train new models on RSVGD.
-Evaluate trained models on RSVGD using ```--test True```.
+Run ```main.py``` using ```--test False``` to train new models on DIOR-RSVG.
+Evaluate trained models on DIOR-RSVG using ```--test True```.
 
 ## Reference
 If you found this code useful, please cite the paper after it is online. Welcome :+1:_<big>`Fork and Star`</big>_:+1:, then I will let you know when we update.
@@ -69,4 +69,4 @@ If you found this code useful, please cite the paper after it is online. Welcome
 ```
 
 ## Acknowledgments
-Our RSVGD is constructed based on the [DIOR](http://www.escience.cn/people/JunweiHan/DIOR.html) remote sensing image dataset. We thank to the authors for releasing the dataset. Part of our code is borrowed from [TransVG](https://github.com/djiajunustc/TransVG). We thank to the authors for releasing codes. I would like to thank Xiong zhitong and Yuan yuan for helping the manuscript. I also thank the School of Artificial Intelligence, OPtics, and ElectroNics (iOPEN), Northwestern Polytechnical University for supporting this work.
+Our DIOR-RSVG is constructed based on the [DIOR](http://www.escience.cn/people/JunweiHan/DIOR.html) remote sensing image dataset. We thank to the authors for releasing the dataset. Part of our code is borrowed from [TransVG](https://github.com/djiajunustc/TransVG). We thank to the authors for releasing codes. I would like to thank Xiong zhitong and Yuan yuan for helping the manuscript. I also thank the School of Artificial Intelligence, OPtics, and ElectroNics (iOPEN), Northwestern Polytechnical University for supporting this work.
