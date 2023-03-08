@@ -2,6 +2,8 @@
 ##### Author: Zhan Yang 
 This is the offical PyTorch code for paper **"RSVG: Exploring Data and Model for Visual Grounding on Remote Sensing Data"**, [Early Access](https://ieeexplore.ieee.org/document/10056343).
 
+## Please share a <font color='orange'>STAR ⭐</font> if this project does help
+
 ## Introduction
 This is Multi-level Cross-modal Fusion Network, the PyTorch source code of the paper "RSVG: Exploring Data and Model for Visual Grounding on Remote Sensing Data". It is built on top of the [TransVG](https://github.com/djiajunustc/TransVG) in PyTorch. Our method is a transformer-based method for visual grounding for remote sensing data (RSVG). It has achieved the SOTA performance in the RSVG task on our constructed RSVG dataset.
 
