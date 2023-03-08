@@ -60,14 +60,16 @@ Evaluate trained models on DIOR-RSVG using ```--test True```.
 ## Reference
 If you found this code useful, please cite the paper after it is online. Welcome :+1:_<big>`Fork and Star`</big>_:+1:, then I will let you know when we update.
 ```
-@misc{https://doi.org/10.48550/arxiv.2210.12634,
-  title = {RSVG: Exploring Data and Models for Visual Grounding on Remote Sensing Data},
-  author = {Zhan, Yang and Xiong, Zhitong and Yuan, Yuan},
-  year = {2022},
-  doi = {10.48550/ARXIV.2210.12634},
-  url = {https://arxiv.org/abs/2210.12634},
-  publisher = {arXiv}
-}
+@ARTICLE{10056343,
+  author={Zhan, Yang and Xiong, Zhitong and Yuan, Yuan},
+  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+  title={RSVG: Exploring Data and Models for Visual Grounding on Remote Sensing Data}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/TGRS.2023.3250471}
+  }
 ```
 
 ## Acknowledgments
