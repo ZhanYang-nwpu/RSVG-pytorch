@@ -1,6 +1,6 @@
 # RSVG: Exploring Data and Model for Visual Grounding on Remote Sensing Data
 ##### Author: Zhan Yang 
-This is the offical PyTorch code for paper **"RSVG: Exploring Data and Model for Visual Grounding on Remote Sensing Data"**, [Early Access](https://ieeexplore.ieee.org/document/10056343).
+This is the offical PyTorch code for paper **"RSVG: Exploring Data and Model for Visual Grounding on Remote Sensing Data"**, [Paper](https://ieeexplore.ieee.org/document/10056343).
 
 ## Please share a <font color='orange'>STAR ⭐</font> if this project does help
 
