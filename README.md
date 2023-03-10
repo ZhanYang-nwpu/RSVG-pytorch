@@ -74,9 +74,9 @@ If you found this code useful, please cite the paper. Welcome :+1:_<big>`Fork an
   journal={IEEE Transactions on Geoscience and Remote Sensing}, 
   title={RSVG: Exploring Data and Models for Visual Grounding on Remote Sensing Data}, 
   year={2023},
-  volume={},
+  volume={61},
   number={},
-  pages={1-1},
+  pages={1-13},
   doi={10.1109/TGRS.2023.3250471}
   }
 ```
