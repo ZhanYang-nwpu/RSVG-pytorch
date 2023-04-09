@@ -4,6 +4,13 @@ This is the offical PyTorch code for paper **"RSVG: Exploring Data and Model for
 
 ## Please share a <font color='orange'>STAR ⭐</font> if this project does help
 
+
+## 💬 News
+**[2023/04/09]**: Update the DIOR_RSVG dataset. (to clarify, we have been planning to continuously optimize this dataset, and the last public version was wrong and has now been restored.)
+**[2023/11/07]**: Release the DIOR_RSVG dataset.  
+**[2022/10/22]**: Release the training code. Publish the manuscript on arXiv.
+
+
 ## Introduction
 This is Multi-Granularity Visual Language Fusion (MGVLF) Network, the PyTorch source code of the paper "RSVG: Exploring Data and Model for Visual Grounding on Remote Sensing Data". It is built on top of the [TransVG](https://github.com/djiajunustc/TransVG) in PyTorch. Our method is a transformer-based method for visual grounding for remote sensing data (RSVG). It has achieved the SOTA performance in the RSVG task on our constructed RSVG dataset.
 
