@@ -36,9 +36,9 @@ from utils.checkpoint import save_checkpoint, load_pretrain, load_resume
 def main():
     parser = argparse.ArgumentParser(description='Dataloader test')
     parser.add_argument('--size', default=640, type=int, help='image size')
-    parser.add_argument('--images_path', type=str, default='DIOR_RSVGD\\JPEGImages',
+    parser.add_argument('--images_path', type=str, default='DIOR_RSVG\\JPEGImages',
                         help='path to dataset splits data folder')
-    parser.add_argument('--anno_path', type=str, default='DIOR_RSVGD\\Annotations',
+    parser.add_argument('--anno_path', type=str, default='DIOR_RSVG\\Annotations',
                         help='location of pre-parsed dataset info')
     parser.add_argument('--time', default=40, type=int,
                         help='maximum time steps (lang length) per batch')
