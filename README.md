@@ -68,12 +68,18 @@ We expect the directory and file structure to be the following:
 ```
 
 ## Training and Evaluation
+1、Download dataset
+
+2、Download detr-r50-e632da11.pth
+
+3、Train
 ```
 python main.py
 ```
-
 Run ```main.py``` using ```--test False``` to train new models on DIOR-RSVG.
-Evaluate trained models on DIOR-RSVG using ```--test True```.
+
+4、Evaluate trained models on DIOR-RSVG
+Run ```main.py``` using ```--test True```.
 
 ## Reference
 If you found this code useful, please cite the paper. Welcome :+1:_<big>`Fork and Star`</big>_:+1:, then I will let you know when we update.
