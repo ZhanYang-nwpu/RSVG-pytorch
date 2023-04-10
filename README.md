@@ -55,7 +55,7 @@ We expect the directory and file structure to be the following:
 ├── data_loader.py      # Load data
 ├── main.py             # Main code for training, validation, and test
 ├── README.md
-└── RSVGD/              # DIOR-RSVG dataset
+└── DIOR_RSVG/          # DIOR-RSVG dataset
     ├── Annotations/    # Query expressions and bounding boxes
     │   ├── 00001.xml/
     │   └── ..some xml files..
