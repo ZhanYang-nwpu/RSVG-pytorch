@@ -68,17 +68,15 @@ We expect the directory and file structure to be the following:
 ```
 
 ## Training and Evaluation
-1、Download dataset
+1、Download dataset and pre-trained model（detr-r50-e632da11.pth）
 
-2、Download detr-r50-e632da11.pth
-
-3、Train
+2、Train
 ```
 python main.py
 ```
 Run ```main.py``` using ```--test False``` to train new models on DIOR-RSVG.
 
-4、Evaluate trained models on DIOR-RSVG
+3、Evaluate trained models on DIOR-RSVG
 Run ```main.py``` using ```--test True```.
 Remember to set "--resume" and "--pretrain" to your needs in the parameters.
 
