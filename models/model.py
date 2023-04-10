@@ -69,7 +69,7 @@ class MGVLF(nn.Module):
         self.visumodel = load_weights(self.visumodel, './saved_models/detr-r50-e632da11.pth')
         
         # Text model
-        self.textmodel = BertModel.from_pretrained('/data/zhanyang/MLCM/bert-base-uncased/')
+        self.textmodel = BertModel.from_pretrained('bert-base-uncased')
 
         # Multimodal Fusion Module
         self.vlmodel = build_VLFusion(args)
