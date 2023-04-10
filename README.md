@@ -80,6 +80,7 @@ Run ```main.py``` using ```--test False``` to train new models on DIOR-RSVG.
 
 4、Evaluate trained models on DIOR-RSVG
 Run ```main.py``` using ```--test True```.
+Remember to set "--resume" and "--pretrain" to your needs in the parameters.
 
 ## Reference
 If you found this code useful, please cite the paper. Welcome :+1:_<big>`Fork and Star`</big>_:+1:, then I will let you know when we update.
