@@ -6,7 +6,7 @@ This is the offical PyTorch code for paper **"RSVG: Exploring Data and Model for
 
 
 ## 💬 News
-**[2023/04/10]**: Update the DIOR_RSVG dataset and the source code. (to clarify, we have been planning to continuously optimize this dataset, and the previous public version was wrong and has now been restored.)
+**[2023/04/10]**: Update the DIOR_RSVG dataset and the source code. (to clarify, we have been planning to continuously optimize this dataset. Due to an oversight, there was a few inconsistencies between the previous public version mixed in some updated data and the dataset of the paper experiment in the annotation and split, which have now been restored. Just download the "annotation" and "split" files again. We are sorry for the trouble caused to everyone.)
 
 **[2022/11/07]**: Release the DIOR_RSVG dataset.  
 
