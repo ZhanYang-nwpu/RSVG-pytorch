@@ -77,9 +77,9 @@ We expect the directory and file structure to be the following:
     ├── JPEGImages/     # Remote sensing images
     │   ├── 00001.jpg/
     │   └── ..some jpg files..
-    ├── train.txt       # ID of training set
-    ├── val.txt         # ID of validation set
-    └── test.txt        # ID of test set
+    ├── train.txt       # ID of training set    （26991）
+    ├── val.txt         # ID of validation set  （3829）
+    └── test.txt        # ID of test set        （7500）
 ```
 
 ## Training and Evaluation
