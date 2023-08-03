@@ -6,11 +6,9 @@ This is the offical PyTorch code for paper **"RSVG: Exploring Data and Model for
 
 
 ## 💬 News
-**[2023/04/10]**: Update the DIOR_RSVG dataset and the source code.
+Release the DIOR_RSVG dataset.  
 
-**[2022/11/07]**: Release the DIOR_RSVG dataset.  
-
-**[2022/10/22]**: Release the training code. Publish the manuscript on arXiv.
+**[2022/10/22]**: Publish the manuscript on arXiv.
 
 
 ## Introduction
@@ -54,7 +52,7 @@ We recommended the following dependencies.
 - opencv 4.5.5
 - torchvision
 
-## Download Data
+## Download Dataset
 Download our constructed RSVG dataset files. We build the first large-scale dataset for RSVG, termed DIOR-RSVG, which can be downloaded from our [Google Drive](https://drive.google.com/drive/folders/1hTqtYsC6B-m4ED2ewx5oKuYZV13EoJp_?usp=sharing). The download link is available below:
 ```
 https://drive.google.com/drive/folders/1hTqtYsC6B-m4ED2ewx5oKuYZV13EoJp_?usp=sharing
@@ -63,10 +61,6 @@ https://drive.google.com/drive/folders/1hTqtYsC6B-m4ED2ewx5oKuYZV13EoJp_?usp=sha
 We expect the directory and file structure to be the following:
 ```
 ./                      # current (project) directory
-├── models/             # Files for implementation of RSVG model
-├── utils/              # Some scripts for data processing and helper functions 
-├── saved_models/       # Savepath of pth/ckpt and pre-trained model
-├── logs/               # Savepath of logs
 ├── data_loader.py      # Load data
 ├── main.py             # Main code for training, validation, and test
 ├── README.md
@@ -82,18 +76,6 @@ We expect the directory and file structure to be the following:
     └── test.txt        # ID of test set        （7500）
 ```
 
-## Training and Evaluation
-1、Download dataset and pre-trained model（detr-r50-e632da11.pth）
-
-2、Train
-```
-python main.py
-```
-Run ```main.py``` using ```--test False``` to train new models on DIOR-RSVG.
-
-3、Evaluate trained models on DIOR-RSVG
-Run ```main.py``` using ```--test True```.
-Remember to set "--resume" and "--pretrain" to your needs in the parameters.
 
 ## Reference
 If you found this code useful, please cite the paper. Welcome :+1:_<big>`Fork and Star`</big>_:+1:, then I will let you know when we update.
