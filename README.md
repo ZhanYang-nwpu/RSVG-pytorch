@@ -1,27 +1,27 @@
 # RSVG: Exploring Data and Model for Visual Grounding on Remote Sensing Data
-##### Author: Zhan Yang 
+##### Author: Yang Zhan, Zhitong Xiong, Yuan Yuan
 This is the offical dataset for paper **"RSVG: Exploring Data and Model for Visual Grounding on Remote Sensing Data"**, [Paper](https://ieeexplore.ieee.org/document/10056343).
 
 ## Please share a <font color='orange'>STAR ⭐</font> if this project does help
 
 
-## 💬 News
+## 📢 News
 Release the DIOR_RSVG dataset.  
 
 **[2022/10/22]**: Publish the manuscript on arXiv.
 
 
-## Introduction
+## 💬 Introduction
 This is Multi-Granularity Visual Language Fusion (MGVLF) Network, the PyTorch source code of the paper "RSVG: Exploring Data and Model for Visual Grounding on Remote Sensing Data". It is built on top of the [TransVG](https://github.com/djiajunustc/TransVG) in PyTorch. Our method is a transformer-based method for visual grounding for remote sensing data (RSVG). It has achieved the SOTA performance in the RSVG task on our constructed RSVG dataset.
 
 
-### DIOR-RSVG Dataset
+### 📦DIOR-RSVG Dataset
 <p align="middle">
     <img src="fig/DIOR-RSVG.jpg">
 </p>
 
 
-### Statistics of the Visual Grounding Dataset
+### 📦Statistics of the Visual Grounding Dataset
 |                                                                                                                                   **Dataset**                                                                                                                                   |   **train**    | **val**      | **test**     | **Overall** |
 |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:--------------:|:------------:|:------------:|:------------:|
 |                                                  Flickr30k [[Paper]](https://arxiv.org/abs/1505.04870) [[Code]](https://github.com/BryanPlummer/pl-clc) [[Website]](http://web.engr.illinois.edu/~bplumme2/Flickr30kEntities/)                                                  |  29783 (94%)   | 1000 (3%)    | 1000 (3%)    | 31783       |
@@ -36,14 +36,14 @@ This is Multi-Granularity Visual Language Fusion (MGVLF) Network, the PyTorch so
 |                                                                  **DIOR-RSVG** [[Paper]](https://ieeexplore.ieee.org/document/10056343) [[Dataset]](https://drive.google.com/drive/folders/1hTqtYsC6B-m4ED2ewx5oKuYZV13EoJp_)                                                                   |  **26991 (70%)**   | **3829 (10%)**   | **7500 (20%)**   | **38320**       |
 
 
-### Network Architecture
+### 🚀Network Architecture
 <p align="middle">
     <img src="fig/MGVLF.jpg">
 </p>
 
 
 
-## Requirements and Installation
+## 👁️Requirements and Installation
 We recommended the following dependencies.
 - Python 3.6.13
 - PyTorch 1.9.0
@@ -52,7 +52,7 @@ We recommended the following dependencies.
 - opencv 4.5.5
 - torchvision
 
-## Download Dataset
+## 🔍Download Dataset
 Download our constructed RSVG dataset files. We build the first large-scale dataset for RSVG, termed DIOR-RSVG, which can be downloaded from our [Google Drive](https://drive.google.com/drive/folders/1hTqtYsC6B-m4ED2ewx5oKuYZV13EoJp_?usp=sharing). The download link is available below:
 ```
 https://drive.google.com/drive/folders/1hTqtYsC6B-m4ED2ewx5oKuYZV13EoJp_?usp=sharing
@@ -77,7 +77,7 @@ We expect the directory and file structure to be the following:
 ```
 
 
-## Reference
+## 📜Reference
 If you found this code useful, please cite the paper. Welcome :+1:_<big>`Fork and Star`</big>_:+1:, then I will let you know when we update.
 ```
 @ARTICLE{10056343,
@@ -92,5 +92,5 @@ If you found this code useful, please cite the paper. Welcome :+1:_<big>`Fork an
   }
 ```
 
-## Acknowledgments
+## 🙏Acknowledgments
 Our DIOR-RSVG is constructed based on the [DIOR](http://www.escience.cn/people/JunweiHan/DIOR.html) remote sensing image dataset. We thank to the authors for releasing the dataset. Part of our code is borrowed from [TransVG](https://github.com/djiajunustc/TransVG). We thank to the authors for releasing codes. I would like to thank Xiong zhitong and Yuan yuan for helping the manuscript. I also thank the School of Artificial Intelligence, OPtics, and ElectroNics (iOPEN), Northwestern Polytechnical University for supporting this work.
