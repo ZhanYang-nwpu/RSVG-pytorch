@@ -2,6 +2,8 @@
 ##### Author: Yang Zhan, Zhitong Xiong, Yuan Yuan
 This is the offical dataset for paper **"RSVG: Exploring Data and Model for Visual Grounding on Remote Sensing Data"**, [Paper](https://ieeexplore.ieee.org/document/10056343).
 
+**School of Artificial Intelligence, OPtics, and ElectroNics (iOPEN), Northwestern Polytechnical University**
+
 ## Please share a <font color='orange'>STAR ⭐</font> if this project does help
 
 
