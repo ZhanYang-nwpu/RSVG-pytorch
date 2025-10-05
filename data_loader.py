@@ -23,7 +23,9 @@ from pytorch_pretrained_bert.tokenization import BertTokenizer
 import random
 
 def filelist(root, file_type):
-    return [os.path.join(directory_path, f) for directory_path, directory_name, files in os.walk(root) for f in files if f.endswith(file_type)]
+    file_paths = [os.path.join(directory_path, f) for directory_path, directory_name, files in os.walk(root) for f in files if f.endswith(file_type)]
+    file_paths.sort()
+    return file_paths
 
 class RSVGDataset(data.Dataset):
     def __init__(self, images_path, anno_path, imsize=640, transform= None, augment= False,
@@ -188,5 +190,6 @@ def convert_examples_to_features(examples, seq_length, tokenizer):
                 input_mask=input_mask,
                 input_type_ids=input_type_ids))
     return features
+
 
 
