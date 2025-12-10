@@ -78,6 +78,8 @@ We expect the directory and file structure to be the following:
     └── test.txt        # ID of test set        （7500）
 ```
 
+**Note that the dataset is ONLY permitted to be used for research.**
+
 
 ## 📜Reference
 If you found this code useful, please cite the paper. Welcome :+1:_<big>`Fork and Star`</big>_:+1:, then I will let you know when we update.
@@ -96,3 +98,10 @@ If you found this code useful, please cite the paper. Welcome :+1:_<big>`Fork an
 
 ## 🙏Acknowledgments
 Our DIOR-RSVG is constructed based on the [DIOR](http://www.escience.cn/people/JunweiHan/DIOR.html) remote sensing image dataset. We thank to the authors for releasing the dataset. Part of our code is borrowed from [TransVG](https://github.com/djiajunustc/TransVG). We thank to the authors for releasing codes. I would like to thank Xiong zhitong and Yuan yuan for helping the manuscript. I also thank the School of Artificial Intelligence, OPtics, and ElectroNics (iOPEN), Northwestern Polytechnical University for supporting this work.
+
+
+
+## License
+Licensed under a [Creative Commons Attribution-NonCommercial 4.0 International](https://creativecommons.org/licenses/by-nc/4.0/) for Non-commercial use only.
+Any commercial use should get formal permission first.
+
